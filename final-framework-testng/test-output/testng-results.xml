@@ -2,16 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42008" started-at="2019-11-18T05:14:05Z" finished-at="2019-11-18T05:14:47Z">
+  <suite name="Default suite" duration-ms="27189" started-at="2019-11-19T13:47:29Z" finished-at="2019-11-19T13:47:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42008" started-at="2019-11-18T05:14:05Z" finished-at="2019-11-18T05:14:47Z">
-      <class name="simple.Tests">
-        <test-method status="PASS" signature="magentoLogin()[pri:0, instance:simple.Tests@482f8f11]" name="magentoLogin" duration-ms="41953" started-at="2019-11-18T10:44:05Z" finished-at="2019-11-18T10:44:47Z">
+    <test name="Default test" duration-ms="27189" started-at="2019-11-19T13:47:29Z" finished-at="2019-11-19T13:47:56Z">
+      <class name="com.training.sanity.tests.ElearningRegisterTC16">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ElearningRegisterTC16@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="4" started-at="2019-11-19T19:17:29Z" finished-at="2019-11-19T19:17:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- magentoLogin -->
-      </class> <!-- simple.Tests -->
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ElearningRegisterTC16@5c7fa833]" name="setUp" is-config="true" duration-ms="8423" started-at="2019-11-19T19:17:29Z" finished-at="2019-11-19T19:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="teacherRegistration()[pri:0, instance:com.training.sanity.tests.ElearningRegisterTC16@5c7fa833]" name="teacherRegistration" duration-ms="15694" started-at="2019-11-19T19:17:37Z" finished-at="2019-11-19T19:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ElearningRegisterTC16@5c7fa833]" name="tearDown" is-config="true" duration-ms="3038" started-at="2019-11-19T19:17:53Z" finished-at="2019-11-19T19:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.ElearningRegisterTC16 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
