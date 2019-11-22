@@ -76,4 +76,12 @@ private WebDriver driver;
 	public void clickSaveChanges() {
 		this.SaveChanges.click();
 	}
+	
+	@FindBy(xpath="//img[@title='Easy Learning']")
+	private WebElement create2;
+	
+	public void clickcreate2() {
+		this.create2.click();
+	}
+	
 }
