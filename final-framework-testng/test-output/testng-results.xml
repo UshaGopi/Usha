@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32868" started-at="2019-11-22T04:24:27Z" finished-at="2019-11-22T04:25:00Z">
+  <suite name="Default suite" duration-ms="32299" started-at="2019-11-23T19:01:45Z" finished-at="2019-11-23T19:02:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32868" started-at="2019-11-22T04:24:27Z" finished-at="2019-11-22T04:25:00Z">
-      <class name="com.training.sanity.tests.MediumTC46">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MediumTC46@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2019-11-22T09:54:27Z" finished-at="2019-11-22T09:54:27Z">
+    <test name="Default test" duration-ms="32299" started-at="2019-11-23T19:01:45Z" finished-at="2019-11-23T19:02:17Z">
+      <class name="com.training.sanity.tests.MediumTC47">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MediumTC47@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="20" started-at="2019-11-24T00:31:45Z" finished-at="2019-11-24T00:31:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTC46@5c7fa833]" name="setUp" is-config="true" duration-ms="12172" started-at="2019-11-22T09:54:27Z" finished-at="2019-11-22T09:54:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTC47@5c7fa833]" name="setUp" is-config="true" duration-ms="15108" started-at="2019-11-24T00:31:45Z" finished-at="2019-11-24T00:32:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="studComment()[pri:0, instance:com.training.sanity.tests.MediumTC46@5c7fa833]" name="studComment" duration-ms="17521" started-at="2019-11-22T09:54:39Z" finished-at="2019-11-22T09:54:57Z">
+        <test-method status="PASS" signature="AdminCreateCategoryCourse()[pri:0, instance:com.training.sanity.tests.MediumTC47@5c7fa833]" name="AdminCreateCategoryCourse" duration-ms="13904" started-at="2019-11-24T00:32:00Z" finished-at="2019-11-24T00:32:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- studComment -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTC46@5c7fa833]" name="tearDown" is-config="true" duration-ms="3125" started-at="2019-11-22T09:54:57Z" finished-at="2019-11-22T09:55:00Z">
+        </test-method> <!-- AdminCreateCategoryCourse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTC47@5c7fa833]" name="tearDown" is-config="true" duration-ms="3237" started-at="2019-11-24T00:32:14Z" finished-at="2019-11-24T00:32:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.MediumTC46 -->
+      </class> <!-- com.training.sanity.tests.MediumTC47 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

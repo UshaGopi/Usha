@@ -84,4 +84,109 @@ private WebDriver driver;
 		this.create2.click();
 	}
 	
+	@FindBy(xpath="//a[@href='course_category.php']")
+	private WebElement courseCategory;
+	
+	public void clickcourseCategory() {
+		this.courseCategory.click();
+	}
+	
+	@FindBy(xpath="//img[@title='Add category']")
+	private WebElement addCategory;
+	
+	public void clickaddCategory() {
+		this.addCategory.click();
+	}
+	
+	@FindBy(id="course_category_code")
+	private WebElement catCode; 
+	
+	public void sendcatCode(String catCode) {
+		this.catCode.sendKeys(catCode);
+	}
+	
+	
+	@FindBy(id="course_category_name")
+	private WebElement catName; 
+	
+	public void sendcatName(String catName) {
+		this.catName.sendKeys(catName);
+	}
+	
+	@FindBy(id="course_category_submit")
+	private WebElement submitCategory;
+	
+	public void clicksubmitCategory() {
+		this.submitCategory.click();
+	}
+	
+	@FindBy(xpath="//a[@title='Administration']")
+	private WebElement adLink;
+	
+	public void clickadLink() {
+		this.adLink.click();
+	}
+	
+	@FindBy(xpath="//a[@href='course_add.php']")
+	private WebElement crteCourse;
+	
+	public void clickcrteCourse() {
+		this.crteCourse.click();
+	}
+	
+	@FindBy(id="update_course_title")
+	private WebElement cTitle; 
+	
+	public void sendcTitle(String cTitle) {
+		this.cTitle.sendKeys(cTitle);
+	}
+	
+	@FindBy(id="visual_code")
+	private WebElement Code; 
+	
+	public void sendCode(String Code) {
+		this.Code.sendKeys(Code);
+	}
+	
+	@FindBy(className="filter-option-inner-inner")
+	private WebElement CatDrp;
+	
+	public void clickCatDrp() {
+		this.CatDrp.click();
+	}
+	
+	@FindBy(xpath="//input[@aria-label='Search']")
+	private WebElement CatSearch; 
+	
+	public void sendCatSearch(String CatSearch) {
+		this.CatSearch.sendKeys(CatSearch);
+	}
+	
+	@FindBy(xpath="//span[text()='Easy Learning Ways (ELW)']")
+	private WebElement ELW;
+	
+	public void clickELW() {
+		this.ELW.click();
+	}
+	
+	@FindBy(className="select2-search__field")
+	private WebElement TeacherDrp; 
+	
+	public void sendTeacherDrp(String TeacherDrp) {
+		this.TeacherDrp.sendKeys(TeacherDrp);
+	}
+	
+	@FindBy(xpath="//li[text()='manzoor mehadi (manzoor_test)']")
+	private WebElement SelDrp; 
+	
+	public void clickSelectedDrp() {
+		this.SelDrp.click();
+	}
+	
+	@FindBy(id="update_course_submit")
+	private WebElement CrteCrse; 
+	
+	public void clickSubmitCrteCrse() {
+		this.CrteCrse.click();
+	}
 }

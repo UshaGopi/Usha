@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.MediumTC46">
+      <class name="com.training.sanity.tests.MediumTC47">
         <methods>
+          <include name="AdminCreateCategoryCourse"/>
           <include name="setUpBeforeClass"/>
-          <include name="teacherPrjctCreation"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.MediumTC46 -->
+      </class> <!-- com.training.sanity.tests.MediumTC47 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
