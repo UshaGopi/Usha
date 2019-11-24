@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class AdminPOM {
 private WebDriver driver; 
@@ -189,4 +190,113 @@ private WebDriver driver;
 	public void clickSubmitCrteCrse() {
 		this.CrteCrse.click();
 	}
+	
+	@FindBy(xpath="//a[@href='user_add.php']")
+	private WebElement addUser; 
+	
+	public void clickaddUser() {
+		this.addUser.click();
+	}
+	
+	@FindBy(id="firstname")
+	private WebElement userFName; 
+	
+	public void senduserFName(String userFName) {
+		this.userFName.sendKeys(userFName);
+	}
+	
+	@FindBy(id="lastname")
+	private WebElement userLName; 
+	
+	public void senduserLName(String userLName) {
+		this.userLName.sendKeys(userLName);
+	}
+	
+	@FindBy(id="email")
+	private WebElement userEmail; 
+	
+	public void senduserEmail(String userEmail) {
+		this.userEmail.sendKeys(userEmail);
+	}
+	
+	@FindBy(id="phone")
+	private WebElement userPhn; 
+	
+	public void senduserPhn(String userPhn) {
+		this.userPhn.sendKeys(userPhn);
+	}
+	
+	@FindBy(id="username")
+	private WebElement userLoginName; 
+	
+	public void senduserLoginName(String userLoginName) {
+		this.userLoginName.sendKeys(userLoginName);
+	}
+	
+	@FindBy(xpath="//input[@value='0']")
+	private WebElement passRadio; 
+	
+	public void clickpassRadio() {
+		this.passRadio.click();
+	}
+	
+	@FindBy(className="filter-option-inner-inner")
+	private WebElement profile; 
+	
+	public void clickprofile() {
+		this.profile.click();
+	}
+	
+	@FindBy(xpath="//span[text()='Trainer']")
+	private WebElement trainer; 
+	
+	public void clicktrainer() {
+		this.trainer.click();
+	}
+	
+	@FindBy(name="submit")
+	private WebElement submit; 
+	
+	public void clicksubmit() {
+		this.submit.click();
+	}
+	
+	@FindBy(xpath="//a[@href='subscribe_user2course.php']")
+	private WebElement userToCourse; 
+	
+	public void clickuserToCourse() {
+		this.userToCourse.click();
+	}
+	
+	@FindBy(xpath="//select[@name='firstLetterUser']")
+	private WebElement userListdrp; 
+	
+	public void selectuserListdrp(String H) {
+		Select userListdrop = new Select(userListdrp);
+		userListdrop.selectByValue(H);
+	}
+	
+	@FindBy(xpath="//select[@name='UserList[]']")
+	private WebElement userList; 
+	
+	public void selectuserListName(String value) {
+		Select sel = new Select(userList);
+		sel.selectByValue(value);
+	}
+	
+	@FindBy(xpath="//select[@name='CourseList[]']")
+	private WebElement courseList; 
+	
+	public void selectcourseList(String value) {
+		Select sele = new Select(courseList);
+		sele.selectByValue(value);
+	}
+	
+	@FindBy(xpath="//button[@value='Add to the course(s) >>']")
+	private WebElement addToCourse; 
+	
+	public void clickaddToCourse() {
+		this.addToCourse.click();
+	}
+	
 }
