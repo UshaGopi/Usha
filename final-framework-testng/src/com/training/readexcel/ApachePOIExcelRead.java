@@ -12,13 +12,14 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * 
  * @author Naveen
+ * @param <ignore>
  * @see this class will take the records from excel sheet, and return it as list
  *      of list of object, and can be generic, can given any records until it
  *      exists. Test it with main method provided, and the path is hard coded,
  *      participatns are asked to refractor this path in the property file and
  *      access.
  */
-public class ApachePOIExcelRead {
+public class ApachePOIExcelRead<ignore> {
 	public  String [][] getExcelContent(String fileName) {
 		int rowCount =0; 
 		String [][] list1 = null; 
@@ -34,6 +35,7 @@ public class ApachePOIExcelRead {
 			XSSFSheet sheet = workbook.getSheetAt(0);
 			
 			int rowTotal = sheet.getLastRowNum();
+			
 
 			if ((rowTotal > 0) || (sheet.getPhysicalNumberOfRows() > 0)) {
 			    rowTotal++;
@@ -42,9 +44,10 @@ public class ApachePOIExcelRead {
 			
 			// Iterate through each rows one by one
 			Iterator<Row> rowIterator = sheet.iterator();
-			 list1 = new String[rowTotal][2];
+			 list1 = new String[rowTotal][3];
 			 
 			while (rowIterator.hasNext()) {
+				
 				Row row = rowIterator.next();
 				// For each row, iterate through all the columns
 				Iterator<Cell> cellIterator = row.cellIterator();
@@ -89,7 +92,8 @@ public class ApachePOIExcelRead {
 	}
 
 	public static void main(String[] args) {
-		String fileName = "C:/Users/Naveen/Desktop/Testing.xlsx";
+		//String fileName = "C:/Users/Naveen/Desktop/Testing.xlsx";
+		String fileName = "C:\\Users\\GopiUshaKiran\\Desktop\\Training\\ELearningTD.xlsx";
 		
 		for(String [] temp : new ApachePOIExcelRead().getExcelContent(fileName)){
 			for(String  tt : temp){
