@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85449" started-at="2019-11-25T06:06:20Z" finished-at="2019-11-25T06:07:45Z">
+  <suite name="Default suite" duration-ms="42357" started-at="2019-11-25T17:41:52Z" finished-at="2019-11-25T17:42:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85449" started-at="2019-11-25T06:06:20Z" finished-at="2019-11-25T06:07:45Z">
+    <test name="Default test" duration-ms="42357" started-at="2019-11-25T17:41:52Z" finished-at="2019-11-25T17:42:34Z">
       <class name="com.training.regression.tests.RegisterByXLSX">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2019-11-25T11:36:20Z" finished-at="2019-11-25T11:36:20Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-11-25T23:11:52Z" finished-at="2019-11-25T23:11:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="setUp" is-config="true" duration-ms="11929" started-at="2019-11-25T11:36:20Z" finished-at="2019-11-25T11:36:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="setUp" is-config="true" duration-ms="11536" started-at="2019-11-25T23:11:52Z" finished-at="2019-11-25T23:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RegisterDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="RegisterDBTest" duration-ms="8137" started-at="2019-11-25T11:36:32Z" data-provider="xls-inputs" finished-at="2019-11-25T11:36:40Z">
+        <test-method status="PASS" signature="RegErrorCapture(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="RegErrorCapture" duration-ms="8072" started-at="2019-11-25T23:12:03Z" data-provider="xls-inputs01" finished-at="2019-11-25T23:12:12Z">
           <params>
             <param index="0">
               <value>
@@ -24,52 +24,52 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[manzoor]]>
+                <![CDATA[george]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[mehadi]]>
+                <![CDATA[bush]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[manzoor@gmail.com]]>
+                <![CDATA[george@gmail.com]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[manzoor]]>
+                <![CDATA[george_99]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[manzoor]]>
+                <![CDATA[george]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[manzoor]]>
+                <![CDATA[bush]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[9876543210]]>
+                <![CDATA[9876543212]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="tearDown" is-config="true" duration-ms="2986" started-at="2019-11-25T11:36:40Z" finished-at="2019-11-25T11:36:43Z">
+        </test-method> <!-- RegErrorCapture -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="tearDown" is-config="true" duration-ms="3035" started-at="2019-11-25T23:12:12Z" finished-at="2019-11-25T23:12:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="setUp" is-config="true" duration-ms="11276" started-at="2019-11-25T11:36:43Z" finished-at="2019-11-25T11:36:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="setUp" is-config="true" duration-ms="10010" started-at="2019-11-25T23:12:15Z" finished-at="2019-11-25T23:12:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RegisterDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="RegisterDBTest" duration-ms="6825" started-at="2019-11-25T11:36:54Z" data-provider="xls-inputs" finished-at="2019-11-25T11:37:01Z">
+        <test-method status="PASS" signature="RegErrorCapture(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="RegErrorCapture" duration-ms="6640" started-at="2019-11-25T23:12:25Z" data-provider="xls-inputs01" finished-at="2019-11-25T23:12:31Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[alex@gmail.com]]>
+                <![CDATA[alex1]]>
               </value>
             </param>
             <param index="4">
@@ -114,116 +114,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="tearDown" is-config="true" duration-ms="2838" started-at="2019-11-25T11:37:01Z" finished-at="2019-11-25T11:37:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="setUp" is-config="true" duration-ms="10842" started-at="2019-11-25T11:37:04Z" finished-at="2019-11-25T11:37:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RegisterDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="RegisterDBTest" duration-ms="6612" started-at="2019-11-25T11:37:15Z" data-provider="xls-inputs" finished-at="2019-11-25T11:37:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test Data 3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[george]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bush]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[george@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[george]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[george]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[george]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9876543212]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="tearDown" is-config="true" duration-ms="2846" started-at="2019-11-25T11:37:21Z" finished-at="2019-11-25T11:37:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="setUp" is-config="true" duration-ms="10683" started-at="2019-11-25T11:37:24Z" finished-at="2019-11-25T11:37:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RegisterDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="RegisterDBTest" duration-ms="7425" started-at="2019-11-25T11:37:35Z" data-provider="xls-inputs" finished-at="2019-11-25T11:37:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test Data 4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mark]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[angel]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[mark@gmail.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[mark]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[mark]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[mark]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9876543213]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@39aeed2f]" name="tearDown" is-config="true" duration-ms="2863" started-at="2019-11-25T11:37:42Z" finished-at="2019-11-25T11:37:45Z">
+        </test-method> <!-- RegErrorCapture -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RegisterByXLSX@724af044]" name="tearDown" is-config="true" duration-ms="2895" started-at="2019-11-25T23:12:31Z" finished-at="2019-11-25T23:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

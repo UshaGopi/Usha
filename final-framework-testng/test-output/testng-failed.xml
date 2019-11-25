@@ -7,8 +7,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="RegErrorCapture" invocation-numbers="1"/>
           <include name="setUpBeforeClass"/>
-          <include name="RegisterDBTest"/>
         </methods>
       </class> <!-- com.training.regression.tests.RegisterByXLSX -->
     </classes>

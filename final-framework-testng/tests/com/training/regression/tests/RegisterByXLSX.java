@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 //import com.training.dataproviders.LoginDataProviders;
 import com.training.dataproviders.RegisterDataProviders;
+import com.training.dataproviders.XLS_DataProv;
 import com.training.generics.ScreenShot;
 import com.training.pom.ElearningPOM;
 import com.training.utility.DriverFactory;
@@ -46,8 +47,8 @@ public class RegisterByXLSX {
 		Thread.sleep(1000);
 		driver.quit();
 	}
-
-	@Test(dataProvider = "xls-inputs", dataProviderClass = RegisterDataProviders.class)
+	//76
+	@Test(dataProvider = "xls-inputs", dataProviderClass = RegisterDataProviders.class, enabled=false)
 	public void RegisterDBTest(String FieldsName, String Fname, String Lname, String email, String username, String password, String confirmPass,
             String phone) throws InterruptedException {
 		EPOM.clickSignUp();
@@ -64,7 +65,24 @@ public class RegisterByXLSX {
 		screenShot.captureScreenShot("screenshots/MultiReg");
 
 	}
-	
+	//TC77
+	@Test(dataProvider = "xls-inputs01", dataProviderClass = XLS_DataProv.class)
+	public void RegErrorCapture(String FieldsName, String Fname, String Lname, String email, String username, String password, String confirmPass,
+            String phone) throws InterruptedException {
+		EPOM.clickSignUp();
+		EPOM.clickTeacherIcon();
+		EPOM.sendFirstName(Fname);
+		EPOM.sendLastName(Lname);
+		EPOM.sendEmail(email);
+		EPOM.sendUsername(username);
+		EPOM.sendPassword(password);
+		EPOM.sendconfirmPass(confirmPass);
+		EPOM.sendPhoneNum(phone);
+		EPOM.clickRegisterBtn(); 
+		Thread.sleep(1000);
+		screenShot.captureScreenShot("screenshots/ErrorCap");
+		
+	}
 
 
 }
