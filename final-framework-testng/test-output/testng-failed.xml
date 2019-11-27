@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.regression.tests.RegisterByXLSX">
+      <class name="com.training.regression.tests.LoginDBTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="RegErrorCapture" invocation-numbers="1"/>
+          <include name="loginDBTest" invocation-numbers="0"/>
+          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
         </methods>
-      </class> <!-- com.training.regression.tests.RegisterByXLSX -->
+      </class> <!-- com.training.regression.tests.LoginDBTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
