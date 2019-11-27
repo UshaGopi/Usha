@@ -10,15 +10,15 @@ import com.training.bean.DBBean;
 
 public class GetConnection {
 	static Connection connection; 
-	public PreparedStatement ps1, ps2; 
-	public ResultSet rs1, rs2; 
+	public PreparedStatement ps1, ps2,ps3,ps4,ps5,ps6,ps7; 
+	public ResultSet rs1, rs2,rs3,rs4,rs5,rs6,rs7; 
 	
 	public static Connection getMySqlConnection(DBBean dbBean) {
 		
 		try {
 			// load 
 			Class.forName(dbBean.getDriver());
-			connection = DriverManager.getConnection(dbBean.getUrl() , 
+			connection = DriverManager.getConnection(dbBean.getUrl(),
 					dbBean.getUserName(), dbBean.getPassword());
 			
 			return connection; 

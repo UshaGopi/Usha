@@ -39,6 +39,7 @@ public class ElearnAdminLogin {
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
 		driver.get(baseUrl);
+		
 	}
 	
 	@AfterMethod
